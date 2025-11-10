@@ -1,0 +1,24 @@
+{
+  "databases": {
+    "PRODUCT": {
+      "DB_NAME": "product_service",
+      "tables": {
+        "PRODUCTS": "products"
+      }
+    },
+    "SELLER": {
+      "DB_NAME": "seller_service",
+      "tables": {
+        "WAREHOUSES": "seller_warehouses",
+        "INFO": "seller_info"
+      }
+    },
+    "ORDER": {
+      "DB_NAME": "order_service",
+      "tables": {
+        "ORDERS": "orders",
+        "ORDER_SELLER_ITEMS": "order_seller_items"
+      }
+    }
+  }
+}

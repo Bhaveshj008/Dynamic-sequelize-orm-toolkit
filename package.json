@@ -1,0 +1,24 @@
+{
+  "name": "orm-dynamic-core",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Runtime ORM abstraction with cross-DB joins and dynamic associations built on Sequelize.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node example/run.js"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "sequelize": "^6.37.1",
+    "pg": "^8.12.0",
+    "dotenv": "^16.4.5",
+    "module-alias": "^2.2.3"
+  },
+  "_moduleAliases": {
+    "@config": "src/config",
+    "@utils": "src/utils",
+    "@models": "src/models",
+    "@services": "src/services"
+  }
+}
